@@ -14,7 +14,7 @@ programa
 	funcao inicio()
 	{
 	// Declaração de variaveis
-	inteiro num = 0, sort = 0, total = 0
+	inteiro num = 0, sort = 0, total = 0,pisca = 1
 
 	// Cabeçalho ou apresentação
 		ut.aguarde(300)escreva("   !!!TENTE ADVINHAR JOGADOR!!!")
@@ -57,7 +57,13 @@ programa
 				se (total == 3 e num != sort){	// Condição caso esgote as chances do usuário
 					ut.aguarde(1000)escreva("\n\n Suas chances ACABARAM.")
 					ut.aguarde(1000)escreva("\n\n O número que pensei foi  ",sort," .")
-					ut.aguarde(600)escreva("\n    GAME OVER T_T\n\n")
+					
+					/*enquanto(pisca <= 5){
+						ut.aguarde(600)escreva("")
+						ut.aguarde(600)escreva("\n    GAME OVER T_T\n\n")
+						
+						pisca ++
+					}*/
 				}
 		}enquanto(num != sort e total < 3)
 	}
@@ -68,7 +74,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2188; 
+ * @POSICAO-CURSOR = 2138; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {num, 17, 9, 3}-{sort, 17, 18, 4}-{total, 17, 28, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

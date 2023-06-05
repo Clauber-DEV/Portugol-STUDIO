@@ -33,6 +33,7 @@ programa
 					pare
 		 	caso contrario:
 		 		escreva("Sinal de operação não descrito.")
+		 			pare
 		 }
 		
 		escreva("\nDigite o primiro numero:" )
@@ -64,7 +65,7 @@ programa
 
 		 	caso contrario:
 		        	escreva("Operação não descrita.\n")
-		 		escreva("Utilise uma das quatro operações citadas acima.\n")
+		 		escreva("Utilize uma das quatro operações citadas acima.\n")
 		 
 		 }
 		 escreva("\nFim\n")
@@ -75,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 35; 
+ * @POSICAO-CURSOR = 1631; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

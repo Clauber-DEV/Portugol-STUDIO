@@ -26,8 +26,7 @@ programa
 				cont = cont + 1
 
 				soma = soma + num
-
-				media = soma / cont
+				
 			}
 			se (cont == 1){
 				maior = num
@@ -37,6 +36,7 @@ programa
 				}
 			}
 		}
+		media = soma / cont
 		
 		escreva("Quantidade de valores :",t.real_para_inteiro(cont))
 		escreva("\nsoma = ",t.real_para_inteiro(soma))
@@ -50,9 +50,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 963; 
+ * @POSICAO-CURSOR = 694; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {num, 17, 7, 3}-{soma, 17, 18, 4}-{cont, 17, 30, 4}-{media, 17, 42, 5}-{maior, 17, 55, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

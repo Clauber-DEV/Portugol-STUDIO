@@ -12,7 +12,7 @@ programa
 		escreva("quanto de dinheiro você tem R$")
 		leia(din)
 
-		hatual = c.hora_atual(falso)
+		hatual = c.hora_atual(falso) //parametro, (verdadeiro) formato 12hr AM PM  e (falso) formato 24hr
 
 		se (hora < hatual e din >= preco){
 			escreva("Você pode comprar o ingreço para assistir o filme")
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 299; 
+ * @POSICAO-CURSOR = 324; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

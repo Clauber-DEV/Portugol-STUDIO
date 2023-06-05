@@ -25,7 +25,7 @@ programa
 				
 		}
 		para(inteiro pos = 0; pos < ut.numero_elementos(valores); pos++){
-			escreva(pos,":{",valores[pos],"} ")
+			escreva(pos,":{",valores[pos],"} \n")
 			ut.aguarde(500)
 		}
 		escreva("\n\n")
@@ -36,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 325; 
+ * @POSICAO-CURSOR = 698; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {valores, 14, 10, 7}-{num, 15, 6, 3}-{pos, 22, 15, 3}-{pos, 27, 15, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

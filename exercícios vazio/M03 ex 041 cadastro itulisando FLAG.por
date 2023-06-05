@@ -64,7 +64,7 @@ programa
 		escreva("\n         **CADASTRO ENCERRADO**")
 		escreva("\nTotal de passoas cadastradas: ",ciclo)
 		escreva("\nPessoa mais velha é ",maiorn," com ",maior," anos de idade.")
-		escreva("\nPessoa mais nova é ", menorn," com ",menor,"anos de idade.")
+		escreva("\nPessoa mais nova é ", menorn," com ",menor," anos de idade.")
 		escreva("\nA média de idade entre os cadastrados é ",m.arredondar(div, 2)," anos\n\n")
 	}
 }
@@ -73,7 +73,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 853; 
+ * @POSICAO-CURSOR = 1826; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {idade, 22, 10, 5}-{idade2, 22, 20, 6}-{ciclo, 22, 32, 5}-{maior, 22, 42, 5}-{menor, 22, 53, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

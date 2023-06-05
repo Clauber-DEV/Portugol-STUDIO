@@ -1,21 +1,9 @@
 programa
 {
-   /* Aula 04 M02
-    *  exemplo de condições compostas
-    */
 	
 	funcao inicio()
 	{
-	inteiro num
-		escreva("Escrva um número")
-		leia (num)
-		
-		se (num %2 == 0)/* bloco verdde */{
-			escreva("É PAR")
-		} senao/*loco negação*/{
-			escreva("É IMPAR")
-		}
-		escreva("\nacabou")
+		escreva("Olá Mundo")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +11,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 132; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

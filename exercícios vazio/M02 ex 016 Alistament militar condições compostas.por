@@ -21,7 +21,7 @@ programa
 			}
 		se (idade > 18){
 			escreva("Você tem ",idade," anos de idade.\n")
-			escreva("Já expirou a idade para o alistamento militar.")
+			escreva("Já expirou a idade para o alistamento militar.\n\n")
 			}
 	}
 }
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 574; 
+ * @POSICAO-CURSOR = 651; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
