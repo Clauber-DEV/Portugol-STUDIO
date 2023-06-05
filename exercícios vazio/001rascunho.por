@@ -9,7 +9,7 @@ programa
 		inteiro sorteio[10], ind, somap = 0, somai = 0, maior = 0,totaloc = 0
 		
 		escreva("Sorteando números de 0 a 5:")
-		para(ind = 0; ind < ut.numero_elementos(sorteio); ind++){
+		para(ind = 0; ind < ut.numero_elementos(sorteio); ind++){ // comentário
 			sorteio[ind] = ut.sorteia(0, 5)
 			ut.aguarde(300)
 			escreva(" {",sorteio[ind],"} ")
