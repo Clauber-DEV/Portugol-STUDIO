@@ -1,2 +1,2 @@
 # Portugol STUDIO
- exercicios 00 a 60 que será **atualizado** no futuro
+ exercicios 00 a 81 que será **Finalizao** no futuro
